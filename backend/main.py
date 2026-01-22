@@ -12,8 +12,8 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Cough Detection API")
 
-MODEL_PATH = "models/cough_model_svm.pkl"
-SCALER_PATH = "models/scaler.pkl"
+MODEL_PATH = "backend/models/cough_model_svm.pkl"
+SCALER_PATH = "backend/models/scaler.pkl"
 
 model = joblib.load(MODEL_PATH)
 scaler = joblib.load(SCALER_PATH)
