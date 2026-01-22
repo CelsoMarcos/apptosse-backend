@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Dados grandes / dataset
+audio_subset/
+audio_filtered/
+audios/
+*.npy
+uuids.csv
+
+# Temporários
+temp_*.wav
+
+# Frontend
+node_modules/
+.expo/
+dist/
+build/
+
+AppTosse/
+
