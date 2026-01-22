@@ -5,7 +5,8 @@ import os
 import joblib
 import numpy as np
 
-from utils.audio_features import extract_features
+from backend.utils.audio_features import extract_features
+
 from fastapi.middleware.cors import CORSMiddleware
 
 
